@@ -18,5 +18,19 @@ npm run build
 
 `/dist`
 
+## Edit
+
+*   `~ cd /bookmarks`
+*   `vi XXXX.json`, xxxx 为目录集
+
+```json
+{
+    "name": "显示的名字",
+    "url": "跳转的URL",
+    "icon": "图标" // http://图标url || fa-icon@https://fontawesome.com/icons || ''
+}
+```
+
 ## DEMO
-http://jguang.top/demos/hao123/ 
+
+http://jguang.top/demos/hao123/
