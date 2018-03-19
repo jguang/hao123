@@ -1,0 +1,34 @@
+{
+    "name": "hao123",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "npm run parcel",
+        "parcel": "NODE_ENV=production parcel build index.html --public-url ./",
+        "dev": "parcel  index.html"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jguang/hao123.git"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-preset-env": "^1.6.1",
+        "babel-preset-stage-2": "^6.24.1",
+        "less": "^3.0.1",
+        "nodemon": "^1.15.1",
+        "parcel-bundler": "^1.6.2",
+        "parcel-plugin-vue": "^1.5.0"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/jguang/hao123/issues"
+    },
+    "homepage": "https://github.com/jguang/hao123#readme",
+    "dependencies": {
+        "vue": "^2.5.16"
+    }
+}
